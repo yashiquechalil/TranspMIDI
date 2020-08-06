@@ -1,0 +1,38 @@
+Installtion Procedure
+---------------------
+1. Install midish 
+   procedure is desribed in https://zoomadmin.com/HowToInstall/UbuntuPackage/midish
+2. Extract the xml_parser_midi.tar file into ./xml_parser_midi
+3. verify that midish is installed properly. type 
+   $> midish
+
+4. to run the script with sample, type 
+   $> make r1
+        ./xml_parser_midi.exe conf2.xml  20 temp
+        Reading with Stream
+        ConsoleApp1.xformidi
+        Sources are: 
+           id 90369 name a.mid
+           id 90371 name b.mid
+        Regions are: 
+           id 90394 name Chevelle_-_The_Red_(3)-t7-1
+           id 90397 name Chevelle_-_The_Red_(3)-t8-1
+        Playlists are: 
+           id 31506 name electric guitar
+           id 91740 name bass
+           id 91931 name drums
+
+           0 - a.mid
+        file = a.mid, Argument = 20, Argument2 = temp
+           1 - b.mid
+        file = b.mid, Argument = 20, Argument2 = temp
+
+5. to run with your own XML file, type 
+   $>./xml_parser_midi.exe <conf.xml>  <halfnote> <temp>
+   conf.xml  -- The XML input from which the source file names will be used for transposing.
+   halfnote  -- The halftone number. can be any integer between -20 to 20
+   temp      -- reserved
+
+   Example :
+     1. ./xml_parser_midi.exe conf1.xml  10 temp , transposes all tracks in all the midi files in source field in the XML by 10 up.
+     2. ./xml_parser_midi.exe conf1.xml  -10 temp , transposes all tracks in all the midi files in source field in the XML by 10 down.

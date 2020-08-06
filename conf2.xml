@@ -1,0 +1,19 @@
+<midiman>
+    <Sources>
+        <Source name="a.mid" take-id="" type="midi" flags="Writable" id="90369" origin=""/>
+        <Source name="b.mid" take-id="" type="midi" flags="Writable" id="90371" origin=""/>
+    </Sources>
+    <Regions>
+        <Region name="Chevelle_-_The_Red_(3)-t7-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10614847" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="258.00001147223372" id="90394" type="midi" first-edit="nothing" source-0="90369" master-source-0="90369"/>
+        <Region name="Chevelle_-_The_Red_(3)-t8-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10244561" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="248.99999552777331" id="90397" type="midi" first-edit="nothing" source-0="90371" master-source-0="90371"/>
+    </Regions>
+    <Playlists>
+        <Playlist id="31506" name="electric guitar" type="audio" orig-track-id="31464" shared-with-ids="" frozen="0" combine-ops="0"/>
+        <Playlist id="91740" name="bass" type="midi" orig-track-id="91701" shared-with-ids="" frozen="0" combine-ops="0">
+          <Region name="Chevelle_-_The_Red_(3)-t7-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10841129" position="1" beat="4.8611159722270823e-05" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="263.49992669437114" id="91857" type="midi" first-edit="nothing" source-0="90369" master-source-0="90369"/>
+        </Playlist>
+        <Playlist id="91931" name="drums" type="midi" orig-track-id="91892" shared-with-ids="" frozen="0" combine-ops="0">
+          <Region name="Chevelle_-_The_Red_(3)-t8-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10470843" position="1" beat="4.8611159722270823e-05" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="254.49991074991073" id="92053" type="midi" first-edit="nothing" source-0="90371" master-source-0="90371"/>
+        </Playlist>
+    </Playlists>
+</midiman>
